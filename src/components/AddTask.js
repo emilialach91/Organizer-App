@@ -28,6 +28,7 @@ const onSubmit = (e) => {
           type='text'
           placeholder='Add Task'
           value={text}
+          maxLength= '30'
           onChange={(e) => setText(e.target.value)}
         />
       </div>
