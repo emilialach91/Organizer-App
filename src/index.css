@@ -24,9 +24,19 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: left;
   margin-bottom: 20px;
+  text-align: center;
+}
+
+
+@media only screen and (min-width: 500px) {
+  .header {
+    flex-direction: row;
+  justify-content: space-between;
+
+  }
 }
 
 .btn {
@@ -41,6 +51,7 @@ body {
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
+
 }
 
 .btn:focus {
@@ -64,6 +75,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 80px;
+  max-width: 450px;
+  
 }
 
 .task.reminder{

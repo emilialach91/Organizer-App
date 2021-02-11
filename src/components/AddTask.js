@@ -36,7 +36,7 @@ const onSubmit = (e) => {
         <label>Day & Time</label>
         <input
           type='datetime-local'
-          required= 'true'
+          required= '1'
           value={day}
           onChange={(e) => setDay(e.target.value)}
           style={{fontFamily: 'Poppins', fontSize:"16px"}}
