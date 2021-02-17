@@ -31,6 +31,7 @@ npm start
 
 ### Organizer App
 
-![organizer](https://user-images.githubusercontent.com/59490664/108212837-424d7300-7126-11eb-8b17-8fcc17b6b990.png)
+![organizer](https://user-images.githubusercontent.com/59490664/108213141-9f492900-7126-11eb-976f-58e2acc036e8.png)
+
 
 
